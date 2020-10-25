@@ -1,14 +1,14 @@
 public class Main {
 	public static void main(String[] args) {
-		System.out.println(255);
-		System.out.println(0b11111111);
-		System.out.println(0377);
-		System.out.println(0xff);
-		System.out.println(12.33);
-		System.out.println(3e4);
-		System.out.println('A');
-		System.out.println('\u3012');
-		System.out.println("Hello");
-		System.out.println(true);
+		System.out.println(255); // 10進数
+		System.out.println(0b11111111); // 2進数
+		System.out.println(0377); // 8進数
+		System.out.println(0xff); // 16進数
+		System.out.println(12.33); // 不動小数点数
+		System.out.println(3e4); // 指数
+		System.out.println('A'); // 1文字
+		System.out.println('\u3012'); // Unicode
+		System.out.println("Hello"); // 文字列
+		System.out.println(true); // 倫理値
 	}
 }
