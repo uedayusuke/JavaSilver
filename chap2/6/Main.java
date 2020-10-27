@@ -4,5 +4,7 @@ public class Main {
 		x = 200;
 	}
 
-	x = 300
+	/*
+	x = 300;
+	*/
 }
