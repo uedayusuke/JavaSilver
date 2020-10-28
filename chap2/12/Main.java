@@ -1,5 +1,8 @@
 public class Main {
 	public static void main(String[] args) {
+		/*
+		配列の宣言・領域の確保・値の代入をまとめて行う
+		*/
 		int[][] array = {
 			{10, 20, 30, 40},
 			{50, 60, 70, 80},
