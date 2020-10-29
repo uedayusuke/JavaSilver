@@ -12,8 +12,8 @@ public class Main {
 		d = 10;
 
 		b = ++a;
-		System.out.println("a = " + a + "b = " + b);
+		System.out.println("a = " + a + " b = " + b);
 		d = c++;
-		System.out.println("c = " + c + "d = " + d);
+		System.out.println("c = " + c + " d = " + d);
 	}
 }
