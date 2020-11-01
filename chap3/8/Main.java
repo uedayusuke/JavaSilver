@@ -9,6 +9,11 @@ public class Main {
 		double n7 = 10.0;
 		boolean n8 = true;
 
-		System.out.println(n2);
+		System.out.println("n1 == n2	:" + (n1 == n2));
+		System.out.println("n1 == n3	:" + (n1 == n3));
+		System.out.println("n1 == n4	:" + (n1 == n4));
+		System.out.println("n5 == 'a'	:" + (n5 == 'a'));
+		System.out.println("n6 == n7	:" + (n6 == n7));
+		System.out.println("n8 == true	:" + (n8 == true));
 	}
 }
