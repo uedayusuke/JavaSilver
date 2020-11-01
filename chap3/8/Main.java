@@ -15,5 +15,6 @@ public class Main {
 		System.out.println("n5 == 'a'	:" + (n5 == 'a'));
 		System.out.println("n6 == n7	:" + (n6 == n7));
 		System.out.println("n8 == true	:" + (n8 == true));
+		//==演算子の左辺と右辺でデータ型が異なっていても、値が同じであれば"true"
 	}
 }
