@@ -23,5 +23,13 @@ public class Main {
 
 		//s2は参照先が違うため"false"
 		System.out.println("s2 == s4	:" + (s2 == s4));
+
+		//equalsは中身を参照するため"true"!!
+		System.out.println("s1.equals(s2)	:" + (s1.equals(s2)));
+
+		/*
+		→演算子は参照先の比較を行うため、中身がが同じであっても、参照先が異なれば"false"
+		 "new"はStringクラスの管轄外のため参照先は別!!
+		*/
 	}
 }
