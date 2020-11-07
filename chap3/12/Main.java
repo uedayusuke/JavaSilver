@@ -5,5 +5,17 @@ public class Main {
 		System.out.println("s1	:" + s1);
 		System.out.println("s2	:" + s2);
 		System.out.println("s1 == s2	:" + (s1 == s2));
+
+		String s3 = "X";
+		String s4 = s3.concat("Y");
+		System.out.println("s3	:" + s3);
+		System.out.println("s4	:" + s4);
+		System.out.println("s3 == s4	:" + (s3 == s4));
+
+		StringBuilder s5 = new StringBuilder("X");
+		StringBuilder s6 = s5.append("Y");
+		System.out.println("s5	:" + s5);
+		System.out.println("s6	:" + s6);
+		System.out.println("s5 == s6	:" + (s5 == s6));
 	}
 }
