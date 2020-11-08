@@ -8,12 +8,13 @@ public class Main {
 		}else{
 			処理文2; //条件式の結果が"false"の時に実行される
 		}
+
+		処理が一文の時は{}省略可能!
 		*/
-		if(num < 10){
+		if(num < 10)
 			System.out.println("numの値は10未満です。");
-		}else{
+		else
 			System.out.println("numの値は10以上です。");
-		}
 
 		System.out.println("if-else文の後の処理。");
 	}
