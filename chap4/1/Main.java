@@ -9,7 +9,7 @@ public class Main {
 		*/
 		while(num < 5){
 			System.out.println(num + " ");
-			num++;
+			num++; //インクリメント。これがないと数値に変化がないため無限ループが起きる
 		}
 	}
 }
