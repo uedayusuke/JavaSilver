@@ -7,7 +7,6 @@ public class Main{
 				System.out.println(i + "は 4 の倍数です。");
 			}
 		}
-
 		/*
 		forでは1~9が繰り返し処理され、
 		そのなかでifの条件に合うものが出力される
