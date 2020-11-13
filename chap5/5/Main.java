@@ -1,4 +1,5 @@
 class Employee {
+	//コンストラクタのオーバーロード
 
 	Employee(){
 		System.out.println("Employee()");
