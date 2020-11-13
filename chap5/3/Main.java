@@ -3,9 +3,15 @@ class Test {
 		System.out.println("myprint()");
 	}
 
+	String name;
 	void myprint(String s){
-		System.out.println("myprint(Stirng s)");
+		name = s;
 	}
+
+	String output(){
+		return name;
+	}
+
 
 	void myprint(int a){
 		System.out.println("myprint(int a)");
@@ -22,6 +28,7 @@ public class Main {
 
 		t.myprint();
 		t.myprint("Ueda");
+		System.out.println(t.output());
 		t.myprint(1);
 		t.myprint(1, 2);
 	}
