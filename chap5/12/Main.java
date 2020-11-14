@@ -5,14 +5,14 @@ staticイニシャライザ
 */
 
 class Test {
-	static {
-		//3
-		System.out.println("Testクラス　：　stasicイニシャライズ");
-	}
-
 	Test() {
 		//4
 		System.out.println("Testクラス　：　コンストラクト");
+	}
+
+	static {
+		//3 コンストラクタより早い!
+		System.out.println("Testクラス　：　stasicイニシャライズ");
 	}
 }
 
