@@ -22,11 +22,17 @@ class Test {
 
 public class Main {
 	public static void main(String[] args) {
+		/*
+		staticメンバは"別の場所の一箇所"にまとめて保持されているため、
+		インスタンス化しなくても呼び出しか可能!!
+		*/
+
 		//System.out.println(Test.instanceVal);
 		System.out.println(Test.staticVal);
 		//Test.methodA();
 		Test.methodB();
 
+		//Testクラスをインスタンス化
 		Test obj = new Test();
 		System.out.println(obj.instanceVal);
 		System.out.println(obj.staticVal);
