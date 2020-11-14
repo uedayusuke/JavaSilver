@@ -4,6 +4,7 @@ class Test {
 	public void method(String... val) {
 		String size = "";
 		size += val == null ? "" : val.length;
+		//Arrays.toString()を用いて配列の中身を表示する
 		System.out.println(Arrays.toString(val) + " : " + size);
 	}
 }
