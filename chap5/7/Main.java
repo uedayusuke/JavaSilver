@@ -1,8 +1,10 @@
+import java.util.Arrays;
+
 class Test {
 	public void method(String... val) {
 		String size = "";
 		size += val == null ? "" : val.length;
-		System.out.println(val + " : " + size);
+		System.out.println(Arrays.toString(val) + " : " + size);
 	}
 }
 
