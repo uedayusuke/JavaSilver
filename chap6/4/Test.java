@@ -1,6 +1,19 @@
+/*
+クラスにfinal修飾子
+→ [アクセス修飾子] final class クラス名 {}
+
+final修飾子のついたクラスを元に継承できない
+*/
 class SuperA {}
+
 final class SuperB {}
 
+/*
+メソッドにfinal修飾子
+→ [アクセス修飾子] final 戻り値の型 メソッド名 (引数リスト) {}
+
+final修飾子のついたメソッドはサブクラスでもオーバーライドできない
+*/
 class SuperC {
 	void print() {}
 }
