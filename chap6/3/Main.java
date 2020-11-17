@@ -1,3 +1,4 @@
+//スーパークラス
 class SuperA {
 	void methodA() {
 		System.out.println("SuperA:methodA()");
@@ -8,12 +9,15 @@ class SuperA {
 	}
 }
 
+//サブクラス
 class SubA extends SuperA {
 	void methodA() {
 		System.out.println("SubA:methodA()");
 	}
 
 	/*
+	非staticメソッドをstaticメソッドで再定義できない
+	→ コンパイルエラー
 	static void methodA() {
 		System.out.println("SubA:methodA()");
 	}
@@ -24,6 +28,8 @@ class SubA extends SuperA {
 	}
 
 	/*
+	staticメソッドを非スタティックメソッドで定義できない
+	→ コンパイルエラー
 	void methodB() {
 		System.out.println("SubA:methodB()");
 	}
