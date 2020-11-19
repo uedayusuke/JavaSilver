@@ -1,7 +1,7 @@
 /*
 super:
 自オブジェクトから見てスーパークラスのオブジェクトを表現する
-thisど同様に、変数・メソッド・コンストラクタを明示的に指定
+thisと同様に、変数・メソッド・コンストラクタを明示的に指定
 */
 
 /*
@@ -27,15 +27,16 @@ class SubA extends SuperA {
 	}
 
 	public void methodB() {
-		methodA();
-		print();
-		super.methodA();
-		print();
+		methodA(); //サブクラスのmethodA()
+		print(); //スーパークラスのprint()
+		super.methodA(); //スーパークラスのmethodA()
+		print(); //スーパークラスのprint()
 	}
 }
 
 public class Main {
 	public static void main(String[] args) {
+		//サブクラスをインスタンス化
 		SubA obj = new SubA();
 		obj.methodB();
 
