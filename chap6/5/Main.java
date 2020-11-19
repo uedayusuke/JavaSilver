@@ -13,12 +13,17 @@ class Foo {
 	String str;
 	int num;
 
+	//必ず行う処理を引数を持たないコンストラクタに記述
 	public Foo() {
-		this("no_date");
+		this(100);
 	}
 
 	public Foo(String str) {
 		this(str, 1);
+	}
+
+	public Foo(int num) {
+		this("xxx", num);
 	}
 
 	public Foo(String str, int num) {
@@ -35,5 +40,6 @@ public class Main {
 		Foo f1 = new Foo();
 		Foo f2 = new Foo("Hallo");
 		Foo f3 = new Foo("Bye", 200);
+		Foo f4 = new Foo(26);
 	}
 }
