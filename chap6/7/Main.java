@@ -1,10 +1,16 @@
-class SuperA {
-	public SuperA() {
-		System.out.println("SuperA()");
-	}
+/*
+superを介してコンストラクタ
+サブクラスをインスタンス化すると先にスーパークラスのコンストラクタが実行されてからサブクラスにコンストラクタが実行される
+また、スーパークラスのコンストラクタは明示的に指定をしないと引数を持たないコンストラクタが実行される
+*/
 
+
+class SuperA {
 	public SuperA(int a) {
 		System.out.println("SuperA(int a)");
+	}
+	public SuperA() {
+		System.out.println("SuperA()");
 	}
 }
 
