@@ -13,7 +13,7 @@ class SubA extends SuperA {
 	}
 
 	public SubA(int a) {
-		super(a);
+		super(a); //SuperA(int a)を呼び出す
 		System.out.println("SubA(int a)");
 	}
 }
