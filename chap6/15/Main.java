@@ -1,3 +1,4 @@
+//スーパー・抽象クラス
 abstract class Super {
 	int x;
 	int y;
@@ -9,7 +10,9 @@ abstract class Super {
 	}
 }
 
+//サブ・具象クラス
 class MyClass extends Super {
+	//抽象メソッドを実像
 	public void print() {
 		System.out.println("x:	" + x + " y:	" + y);
 	}
@@ -17,8 +20,11 @@ class MyClass extends Super {
 
 public class Main {
 	public static void main(String[] args) {
+		//サブクラスをインスタンス化して、スーパークラスの型で宣言
 		Super obj = new MyClass();
+		//スーパークラスのメソッドを呼び出し
 		obj.method(10, 20);
+		//サブクラスのメソッドを呼び出し
 		obj.print();
 	}
 }
