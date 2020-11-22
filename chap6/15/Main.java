@@ -20,7 +20,10 @@ class MyClass extends Super {
 
 public class Main {
 	public static void main(String[] args) {
-		//サブクラスをインスタンス化して、スーパークラスの型で宣言
+		/*
+		サブクラスをインスタンス化して、スーパークラスの型で宣言
+		→ スーパークラスの方で宣言された変数には、サブクラスのオブジェクトを代入可能
+		*/
 		Super obj = new MyClass();
 		//スーパークラスのメソッドを呼び出し
 		obj.method(10, 20);
