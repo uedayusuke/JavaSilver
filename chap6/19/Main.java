@@ -12,6 +12,7 @@ public class Main {
 		*/
 		//HashSetをインスタンス化
 		HashSet<String> hashSet = new HashSet<>();
+		//HashSet<String> hashSet = new HashSet<String>　でもOK
 
 		//要素を追加
 		hashSet.add(ary[0]);
