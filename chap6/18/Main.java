@@ -15,6 +15,7 @@ public class Main {
 
 		//ArrayList<>をインスタンス化
 		ArrayList<Integer> list = new ArrayList<>();
+		//ArrayList<Integer> List = new ArrayList<Integer>(); でも良い
 
 		Integer i1 = 10;
 		//intデータはBoxingされInteger型に変換される
