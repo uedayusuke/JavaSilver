@@ -8,5 +8,8 @@ public class Main {
 			System.out.println("num :" + num[i]);
 			System.out.println(" : " + (i + 1) + "回目のループ");
 		}
+
+		//for文で例外が発生し強制終了する為、下記は出力されない
+		System.out.println("----- end ----");
 	}
 }
