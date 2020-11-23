@@ -4,6 +4,7 @@ public class Main {
 		for (int i = 0; i < 4; i++) {
 			//try：例外が発生しそうな場所
 			try{
+				//8行目で例外が発生し、9行目はスキップされる
 				System.out.println("num :" + num[i]);
 				System.out.println(" : " + (i + 1) + "回目のループ");
 			}
