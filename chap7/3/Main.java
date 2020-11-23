@@ -7,7 +7,9 @@ public class Main {
 				System.out.println(" : " + (i + 1) + "回目のループ");
 			} catch(ArrayIndexOutOfBoundsException e) {
 				System.out.println("例外が発生しました。");
-			} finally {
+			}
+			//finallu:例外の有無に関わらず必ず実行される
+			finally {
 				System.out.println("-- finally");
 			}
 		}
