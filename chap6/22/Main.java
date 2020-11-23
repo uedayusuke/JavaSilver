@@ -1,5 +1,6 @@
 import java.util.*;
 
+//Employeeクラスを定義
 class Employee {
 	private String name;
 	private Integer id;
@@ -17,7 +18,15 @@ class Employee {
 	}
 }
 
+//Comparatorインタフェースを実装
 class MyRule implements Comparator<Employee> {
+	/*
+	compareインタフェース：
+	ソートの体操となるオブジェクトから、比較ルールを独立したクラスとして定義
+	compareメソッドをオーバーライドしオブジェクトの並び順を決める
+	→ public int compare(T o1, T o2);
+	*/
+	//抽象メソッド(compare())をオーバーライドし実装
 	public int compare(Employee obj1, Employee obj2) {
 		return obj1.getId().compareTo(obj2.getId());
 	}
